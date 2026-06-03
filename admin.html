@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Admin - Product Manager</title>
+    <link rel="stylesheet" href="src/css/style.css" />
+  </head>
+  <body>
+    <header class="topbar"><div class="brand">FUTURE STORE - Admin</div></header>
+    <main class="container">
+      <h2>Product Manager</h2>
+      <div id="productsList"></div>
+      <div id="editor" style="display:none">
+        <h3 id="editTitle"></h3>
+        <div class="row">
+          <label>Imagen</label>
+          <img id="imgPreview" src="" alt="" />
+        </div>
+        <div class="row">
+          <label>Subir nueva imagen</label>
+          <input type="file" id="imageFile" accept="image/*" />
+        </div>
+        <div id="stockEditor"></div>
+        <div class="row actions">
+          <button id="saveProduct" class="btn btn-primary">Guardar cambios</button>
+          <button id="cancelEdit" class="btn btn-outline">Cancelar</button>
+        </div>
+      </div>
+    </main>
+    <script src="src/js/admin.js"></script>
+  </body>
+</html>

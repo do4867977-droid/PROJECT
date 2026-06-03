@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Tienda Futurista - Reservas</title>
+    <link rel="stylesheet" href="src/css/style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <section class="hero">
+        <div class="hero-banner">
+          <div class="hero-banner-left"></div>
+          <div class="hero-banner-right"></div>
+          <div class="hero-overlay"></div>
+          <div class="hero-content">
+            <h1>STORE</h1>
+            <div class="hero-links">
+              <button class="hero-cta" data-brand="BMW">BMW products</button>
+              <button class="hero-cta" data-brand="AUDI">AUDI products</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div id="detailsModal" class="modal" aria-hidden="true">
+        <div class="modal-panel">
+          <button class="modal-close" id="closeDetails">✕</button>
+          <h2 id="detailsTitle">Detalles del producto</h2>
+          <div class="modal-preview">
+            <img id="detailsImage" src="" alt="" />
+          </div>
+          <div class="details-info">
+            <div><strong>SKU:</strong> <span id="detailsSku"></span></div>
+            <div><strong>Marca:</strong> <span id="detailsBrand"></span></div>
+            <div><strong>Precio:</strong> <span id="detailsPrice"></span></div>
+            <div class="row">
+              <label>Tallas / Stock</label>
+              <div id="detailsSizes" class="details-sizes"></div>
+            </div>
+            <div class="row actions">
+              <button id="btnReserveFromDetails" class="btn btn-primary">Reservar este producto</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="catalog-section">
+        <div class="catalog-shell">
+          <h2 class="section-title">Catálogo de productos</h2>
+          <section id="catalog" class="catalog"></section>
+        </div>
+      </section>
+    </main>
+
+    <div id="reserveModal" class="modal" aria-hidden="true">
+      <div class="modal-panel">
+        <button class="modal-close" id="closeModal">✕</button>
+        <h2>Reservar producto</h2>
+        <div class="modal-preview">
+          <img id="productPreview" src="" alt="" />
+        </div>
+        <form id="reserveForm">
+          <div class="row">
+            <label>Producto</label>
+            <input type="text" id="productName" name="productName" readonly />
+          </div>
+          <div class="row">
+            <label>SKU</label>
+            <input type="text" id="productSku" name="productSku" readonly />
+          </div>
+          <div class="row grid-2">
+            <div>
+              <label>Talla</label>
+              <select id="size" name="size" required></select>
+            </div>
+            <div>
+              <label>Color</label>
+              <select id="color" name="color"></select>
+            </div>
+          </div>
+          <div class="row grid-2">
+            <div>
+              <label>Cantidad</label>
+              <input type="number" id="qty" name="qty" min="1" value="1" required />
+            </div>
+            <div>
+              <label>Precio</label>
+              <input type="text" id="price" name="price" readonly />
+            </div>
+          </div>
+          <div class="row">
+            <label>Nombre completo</label>
+            <input type="text" id="fullname" name="fullname" required />
+          </div>
+          <div class="row grid-2">
+            <div>
+              <label>Teléfono</label>
+              <input type="tel" id="phone" name="phone" required />
+            </div>
+            <div>
+              <label>Email</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+          </div>
+          <div class="row">
+            <label>Notas</label>
+            <textarea id="notes" name="notes" rows="3"></textarea>
+          </div>
+          <div class="row actions">
+            <button type="submit" class="btn btn-primary">Reservar</button>
+            <button type="button" id="exportCsv" class="btn btn-outline">Exportar reservas</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="src/js/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,137 @@
+[
+  {
+    "sku": "BM101",
+    "brand": "BMW",
+    "name": "Camiseta BMW 1 Básica",
+    "image": "BM 1.png",
+    "colors": ["Original"],
+    "sizes": ["S(US 36)", "M(US 38)", "L(US 40)", "XL(US 42)", "XXL(US 44)", "XXXL(US 46-48)", "4XL(US 50)"],
+    "stock": {"S(US 36)": 12, "M(US 38)": 15, "L(US 40)": 14, "XL(US 42)": 10, "XXL(US 44)": 7, "XXXL(US 46-48)": 4, "4XL(US 50)": 2}
+  },
+  {
+    "sku": "BM1-AZUL",
+    "brand": "BMW",
+    "name": "Camiseta BMW 1 Azul",
+    "image": "BM 1 AZUL.png",
+    "colors": ["Azul"],
+    "sizes": ["S(US 36)", "M(US 38)", "L(US 40)", "XL(US 42)", "XXL(US 44)", "XXXL(US 46-48)", "4XL(US 50)"],
+    "stock": {"S(US 36)": 8, "M(US 38)": 14, "L(US 40)": 10, "XL(US 42)": 8, "XXL(US 44)": 5, "XXXL(US 46-48)": 3, "4XL(US 50)": 1}
+  },
+  {
+    "sku": "BM1-BLANCA",
+    "brand": "BMW",
+    "name": "Camiseta BMW 1 Blanca",
+    "image": "BM 1 BLANCA.png",
+    "colors": ["Blanca"],
+    "sizes": ["S(US 36)", "M(US 38)", "L(US 40)", "XL(US 42)", "XXL(US 44)", "XXXL(US 46-48)", "4XL(US 50)"],
+    "stock": {"S(US 36)": 10, "M(US 38)": 12, "L(US 40)": 12, "XL(US 42)": 9, "XXL(US 44)": 6, "XXXL(US 46-48)": 2, "4XL(US 50)": 1}
+  },
+  {
+    "sku": "BM201",
+    "brand": "BMW",
+    "name": "Camiseta BMW 2 Básica",
+    "image": "BM 2.png",
+    "colors": ["Original"],
+    "sizes": ["S(US 36)", "M(US 38)", "L(US 40)", "XL(US 42)", "XXL(US 44)"],
+    "stock": {"S(US 36)": 7, "M(US 38)": 11, "L(US 40)": 13, "XL(US 42)": 9, "XXL(US 44)": 4}
+  },
+  {
+    "sku": "BM2-AZUL",
+    "brand": "BMW",
+    "name": "Camiseta BMW 2 Azul",
+    "image": "BM 2 AZUL.png",
+    "colors": ["Azul"],
+    "sizes": ["S(US 36)", "M(US 38)", "L(US 40)", "XL(US 42)", "XXL(US 44)"],
+    "stock": {"S(US 36)": 6, "M(US 38)": 10, "L(US 40)": 12, "XL(US 42)": 7, "XXL(US 44)": 3}
+  },
+  {
+    "sku": "BM2-BLANCA",
+    "brand": "BMW",
+    "name": "Camiseta BMW 2 Blanca",
+    "image": "BM 2 BLANCA.png",
+    "colors": ["Blanca"],
+    "sizes": ["S(US 36)", "M(US 38)", "L(US 40)", "XL(US 42)", "XXL(US 44)"],
+    "stock": {"S(US 36)": 8, "M(US 38)": 9, "L(US 40)": 11, "XL(US 42)": 6, "XXL(US 44)": 4}
+  },
+  {
+    "sku": "BM301",
+    "brand": "BMW",
+    "name": "Polo BMW 3 Básico",
+    "image": "BM 3.png",
+    "colors": ["Original"],
+    "sizes": ["S(US 36)", "M(US 38)", "L(US 40)", "XL(US 42)", "XXL(US 44)"],
+    "stock": {"S(US 36)": 4, "M(US 38)": 8, "L(US 40)": 9, "XL(US 42)": 7, "XXL(US 44)": 2}
+  },
+  {
+    "sku": "BM3-AZUL",
+    "brand": "BMW",
+    "name": "Polo BMW 3 Azul",
+    "image": "BM 3 AZUL.png",
+    "colors": ["Azul"],
+    "sizes": ["S(US 36)", "M(US 38)", "L(US 40)", "XL(US 42)", "XXL(US 44)"],
+    "stock": {"S(US 36)": 5, "M(US 38)": 9, "L(US 40)": 8, "XL(US 42)": 6, "XXL(US 44)": 3}
+  },
+  {
+    "sku": "BM3-BLANCA",
+    "brand": "BMW",
+    "name": "Polo BMW 3 Blanca",
+    "image": "BM 3 BLANCA.png",
+    "colors": ["Blanca"],
+    "sizes": ["S(US 36)", "M(US 38)", "L(US 40)", "XL(US 42)", "XXL(US 44)"],
+    "stock": {"S(US 36)": 6, "M(US 38)": 8, "L(US 40)": 9, "XL(US 42)": 6, "XXL(US 44)": 2}
+  },
+  {
+    "sku": "BM401",
+    "brand": "BMW",
+    "name": "Camiseta BMW 4 Básica",
+    "image": "BM 4.png",
+    "colors": ["Original"],
+    "sizes": ["S(US 36)", "M(US 38)", "L(US 40)", "XL(US 42)", "XXL(US 44)"],
+    "stock": {"S(US 36)": 5, "M(US 38)": 10, "L(US 40)": 11, "XL(US 42)": 8, "XXL(US 44)": 5}
+  },
+  {
+    "sku": "BM4-AZUL",
+    "brand": "BMW",
+    "name": "Camiseta BMW 4 Azul",
+    "image": "BM 4 AZUL.png",
+    "colors": ["Azul"],
+    "sizes": ["S(US 36)", "M(US 38)", "L(US 40)", "XL(US 42)", "XXL(US 44)"],
+    "stock": {"S(US 36)": 7, "M(US 38)": 10, "L(US 40)": 9, "XL(US 42)": 6, "XXL(US 44)": 4}
+  },
+  {
+    "sku": "BM4-BLANCA",
+    "brand": "BMW",
+    "name": "Camiseta BMW 4 Blanca",
+    "image": "BM 4 BLANCA.png",
+    "colors": ["Blanca"],
+    "sizes": ["S(US 36)", "M(US 38)", "L(US 40)", "XL(US 42)", "XXL(US 44)"],
+    "stock": {"S(US 36)": 8, "M(US 38)": 9, "L(US 40)": 8, "XL(US 42)": 6, "XXL(US 44)": 3}
+  },
+  {
+    "sku": "AUDI-AZUL",
+    "brand": "AUDI",
+    "name": "Polo Audi Azul",
+    "image": "AUDI AZUL.png",
+    "colors": ["Azul"],
+    "sizes": ["S(US 36)", "M(US 38)", "L(US 40)", "XL(US 42)", "XXL(US 44)"],
+    "stock": {"S(US 36)": 5, "M(US 38)": 8, "L(US 40)": 10, "XL(US 42)": 6, "XXL(US 44)": 3}
+  },
+  {
+    "sku": "AUDI-BLANCA",
+    "brand": "AUDI",
+    "name": "Polo Audi Blanca",
+    "image": "AUDI BLANCA.png",
+    "colors": ["Blanca"],
+    "sizes": ["S(US 36)", "M(US 38)", "L(US 40)", "XL(US 42)", "XXL(US 44)"],
+    "stock": {"S(US 36)": 6, "M(US 38)": 8, "L(US 40)": 11, "XL(US 42)": 6, "XXL(US 44)": 3}
+  },
+  {
+    "sku": "AUDI-NEGRA",
+    "brand": "AUDI",
+    "name": "Polo Audi Negra",
+    "image": "AUDI NEGRA.png",
+    "colors": ["Negra"],
+    "sizes": ["S(US 36)", "M(US 38)", "L(US 40)", "XL(US 42)", "XXL(US 44)"],
+    "stock": {"S(US 36)": 4, "M(US 38)": 6, "L(US 40)": 9, "XL(US 42)": 5, "XXL(US 44)": 2}
+  }
+]
