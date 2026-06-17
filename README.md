@@ -1,6 +1,6 @@
 ## Live Demo
 
-](https://opscodex.web.app/)
+(https://opscodex.web.app/)
 
 ## Technologies
 - HTML5
